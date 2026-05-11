@@ -1,0 +1,7 @@
+A lightweight, offline Android utility for managing SD cards and OTG USB drives via Root access. Built with Material 3 and designed for maximum privacy and hardware-level control.
+
+Features:
+* Mount/Unmount drives seamlessly from the Android system.
+* Linux Hard Mount: Directly mount corrupted or Ventoy partitions straight to the Linux kernel, bypassing Android's checking loop.
+* Hardware Deep Sleep: Send sysfs signals to completely cut off power to the controller, hiding the drive at the hardware level.
+* Zero Internet permissions.
