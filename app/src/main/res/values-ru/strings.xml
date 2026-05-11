@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mount SDcard</string>
+
+    <string name="label_select_storage">Выберите накопитель:</string>
+    <string name="hint_drive">Диск</string>
+    <string name="status_pull_to_refresh">Потяните вниз для обновления</string>
+    <string name="btn_mount_android">Монтировать (Android)</string>
+    <string name="btn_hard_mount">Жесткое монтирование (Linux)</string>
+    <string name="btn_unmount">Отмонтировать</string>
+
+    <string name="status_requesting_root">Запрос Root-прав...</string>
+    <string name="error_root_denied">Ошибка: Root-права не предоставлены!\nПриложение не может работать.</string>
+    <string name="state_mounted">Смонтирован</string>
+    <string name="state_unmounted">Отмонтирован</string>
+    <string name="state_checking">Сканируется...</string>
+    <string name="state_unmountable">ФС не поддерживается</string>
+    <string name="state_formatting">Форматируется</string>
+    <string name="state_shared">Занят ПК</string>
+
+    <string name="status_no_storage">Накопители не найдены.\nВставьте OTG-флешку или SD-карту.</string>
+    <string name="status_volumes_found">Найдено разделов: %1$d</string>
+    <string name="label_no_label">Нет метки</string>
+    <string name="status_hard_mounting">Прямое обращение к ядру Linux...</string>
+    <string name="status_executing">Выполнение команды: %1$s...</string>
+    <string name="status_hard_mount_success">УСПЕХ!\nПапка монтирования:\n%1$s</string>
+    <string name="status_hard_mount_error">Ошибка Hard Mount:\n%1$s</string>
+
+    <string name="toast_hard_mount_success">Жёсткое монтирование успешно</string>
+    <string name="toast_command_sent">Команда отправлена!</string>
+    <string name="toast_command_fail">Сбой: система не ответила</string>
+
+    <string name="btn_power_off">Отключить питание (Стелс)</string>
+    <string name="toast_power_off">Сигнал отключения питания отправлен</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mount SDcard</string>
+
+    <!-- UI Elements -->
+    <string name="label_select_storage">Select storage:</string>
+    <string name="hint_drive">Drive</string>
+    <string name="status_pull_to_refresh">Pull down to refresh</string>
+    <string name="btn_mount_android">Mount (Android)</string>
+    <string name="btn_hard_mount">Hard Mount (Linux)</string>
+    <string name="btn_unmount">Unmount</string>
+
+    <!-- States & Statuses -->
+    <string name="status_requesting_root">Requesting Root access...</string>
+    <string name="error_root_denied">Error: Root access denied!\nThe app cannot function.</string>
+    <string name="state_mounted">Mounted</string>
+    <string name="state_unmounted">Unmounted</string>
+    <string name="state_checking">Checking...</string>
+    <string name="state_unmountable">Unsupported FS</string>
+    <string name="state_formatting">Formatting</string>
+    <string name="state_shared">Shared with PC</string>
+
+    <!-- Messages -->
+    <string name="status_no_storage">No storage found.\nInsert OTG or SD card.</string>
+    <string name="status_volumes_found">Volumes found: %1$d</string>
+    <string name="label_no_label">No label</string>
+    <string name="status_hard_mounting">Directing to Linux kernel...</string>
+    <string name="status_executing">Executing command: %1$s...</string>
+    <string name="status_hard_mount_success">SUCCESS!\nMount point:\n%1$s</string>
+    <string name="status_hard_mount_error">Hard Mount Error:\n%1$s</string>
+
+    <!-- Toasts -->
+    <string name="toast_hard_mount_success">Hard Mount successful</string>
+    <string name="toast_command_sent">Command sent!</string>
+    <string name="toast_command_fail">Fail: system did not respond</string>
+    <string name="btn_power_off">Deep Sleep (Kill Power)</string>
+    <string name="toast_power_off">Hardware power off signal sent</string>
+</resources>
